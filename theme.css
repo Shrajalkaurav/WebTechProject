@@ -1,0 +1,101 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.Header
+{
+    width: 100vw;
+    height: 160px;
+    background-color:rgb(255, 199, 94) ;
+    display: flex;
+    
+}
+.logo1
+{
+    margin-top: 8px;
+    margin-left: 30px;
+    height: 150px;
+    width:210px
+}
+.navbar
+{
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+.nav
+{
+    margin-left: 35px;
+    height: 40px;
+    width:120px
+    
+}
+.Searchbar
+{
+
+    margin-left: 100px;
+    margin-top: 7px ;
+    height: 40px;
+    width: 600px
+    
+}
+
+
+.logo2
+{
+    margin-bottom:25px;
+    
+    padding: 20px;
+    width: 185px;
+    height: 130px;
+    margin-left: 100px;
+}
+.Banner1
+{
+    background-color: bisque;
+}
+.Video1
+{
+ margin-left: 20px;
+ margin-bottom: 50px;   
+}
+.BrandsHead
+{
+    text-align: center;
+    text-decoration:underline;
+    font-family: sans-serif;
+}
+.Brands
+{
+margin: 18px;
+height: 250px;
+
+}
+
+.Bicycle
+{
+    height: 100px;
+    width:200px
+   
+    
+}
+.virts
+{
+    margin-left: 16px;
+    height: 100px;
+    width:290px
+}
+.dan
+{
+    height:190px;
+    width:120px;
+}
+.maintenance
+{
+    margin-left: 2px;
+    margin-top: 10px;
+    font-size: large;
+    font-family: sans-serif;
+    border: 2px solid black;
+}
