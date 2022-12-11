@@ -5,9 +5,11 @@ body
 }
 .Header
 {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 160px;
-    background-color:rgb(255, 199, 94) ;
+    background-image: url("headerimage.png");
     display: flex;
     
 }
@@ -28,17 +30,30 @@ body
 {
     margin-left: 35px;
     height: 40px;
-    width:120px
+    width:120px;
+    background-color: #F8F9B7;
+    border-radius: 10px;
     
 }
 .Searchbar
 {
-
-    margin-left: 100px;
-    margin-top: 7px ;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 10px ;
     height: 40px;
-    width: 600px
+    width: 600px;
+    background-color: #f1f1bd;
+    border-radius: 5px;
     
+}
+
+.Searchb
+{
+    font-family: sans-serif;
+    height: 40px;
+    width:120px;
+    background-color: #F8F9B7;
+    border-radius: 10px;
 }
 
 
@@ -51,46 +66,60 @@ body
     height: 130px;
     margin-left: 100px;
 }
+.contri
+{
+    color:#363706;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
 .Banner1
 {
     background-color: bisque;
 }
+
 .Video1
 {
  margin-left: 20px;
  margin-bottom: 50px;   
 }
+
 .BrandsHead
 {
     text-align: center;
     text-decoration:underline;
     font-family: sans-serif;
 }
+
 .Brands
 {
 margin: 18px;
 height: 250px;
-
 }
 
 .Bicycle
 {
-    height: 100px;
-    width:200px
-   
-    
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 85px;
+    width:240px
 }
+
 .virts
 {
-    margin-left: 16px;
+    margin-left: 26px;
     height: 100px;
-    width:290px
+    width:330px
 }
+
 .dan
 {
-    height:190px;
+    margin-left: 20px;
+    height:120px;
     width:120px;
 }
+
 .maintenance
 {
     margin-left: 2px;
@@ -98,4 +127,74 @@ height: 250px;
     font-size: large;
     font-family: sans-serif;
     border: 2px solid black;
+}
+
+.dd
+{
+    margin-bottom: 21px;
+    margin-left: 20px;
+height: 70px;
+width: 130px
+}
+
+.cartamundi
+{
+    margin-left: 25px;
+    margin-top:17px ;
+    height: 120px;
+    width: 400px;
+}
+
+.banner 
+{
+    position: relative;
+}
+
+.parabanner1
+{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 20px;
+    left: 20px;
+    bottom: 50px;
+}
+.parabanner2
+{
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 20px;
+    left: 40px;
+    top: 50px;
+}
+
+.headingtuts
+
+{
+    text-align: center;
+    text-decoration:underline;
+    font-family: sans-serif;
+}
+
+.thumb1
+{
+    margin-left:60px ;
+    height: 320px;
+    width: 550px;
+}
+.thumb2
+{
+    height: 320px;
+    width: 550px;
+}
+.yt
+{
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 140px;
+    width: 140px;
 }
